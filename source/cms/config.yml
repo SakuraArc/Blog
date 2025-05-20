@@ -12,7 +12,7 @@ publish_mode: simple # 简单的发布模式
 # 这里我们使用 Git Gateway，它默认与 Netlify Identity 集成。
 
 # UI 界面配置
-display_url: http://121.36.12.252:4000 # 这个 URL 将显示在 Netlify CMS 的后台界面中，点击可查看您的博客
+display_url: https://imaginative-jalebi-51d222.netlify.app/ # 这个 URL 将显示在 Netlify CMS 的后台界面中，点击可查看您的博客
 # 注意：这里最好填写您部署在 Netlify 后的最终域名，例如 https://your-hexo-blog.netlify.app
 
 # 内容集合 (Collections)：定义你的博客内容模型
@@ -30,3 +30,6 @@ collections:
       - {label: "标签", name: "tags", widget: "list", required: false} # 标签列表
       - {label: "分类", name: "categories", widget: "list", required: false} # 分类列表
       - {label: "内容", name: "body", widget: "markdown", required: true} # 文章主要内容，使用 Markdown 编辑器
+
+skip_render:
+  - 'cms/**'  # 这会告诉 Hexo 不要处理 'source/cms/' 目录下的内容，直接将其复制到 public 目录。
