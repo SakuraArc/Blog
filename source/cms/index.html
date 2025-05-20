@@ -8,5 +8,13 @@
 </head>
 <body>
   <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+  <script>
+    // 在此处添加配置，显式指定 config.yml 的路径
+    if (window.CMS) {
+      CMS.init({
+        config: '/cms/config.yml' // 确保这里指向正确且绝对的路径
+      });
+    }
+    </script>
 </body>
 </html>
