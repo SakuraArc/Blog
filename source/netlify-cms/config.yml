@@ -3,6 +3,12 @@ backend:
   name: git-gateway # 使用 Netlify 的 Git Gateway 服务
   branch: main     # 你的 Hexo 仓库的主分支 (通常是 main 或 master)
 
+  # 媒体文件配置
+media_folder: "source/uploads" # 您的图片存储的路径（Git 仓库相对路径）
+public_folder: "/uploads"      # 访问图片的 URL 路径（网站根目录相对路径）
+media_library:
+  name: upload               # 使用 Git 上传方式
+
 # 认证配置：如果你部署在 Netlify，推荐使用 Netlify Identity
 publish_mode: simple # 简单的发布模式
 
