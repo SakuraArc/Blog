@@ -93,6 +93,8 @@ top_bars: # <object[]> {{"title:标题":"","url:地址":"","noswup:不使用 Pja
     url: /
   - title: menu.archives
     url: /archives/
+  - title: manage # 这是菜单项在页面上显示的文本
+    url: /netlify-cms/ # 这是点击后跳转的URL，确保与您CMS的实际路径一致
 
 # Banner settings | 横幅配置
 banner:
