@@ -27,3 +27,11 @@ The most recent hurdle, **"Email not confirmed"** despite clicking the verificat
 This journey has been a masterclass in debugging, moving from filesystem and YAML syntax issues to complex network errors, JavaScript dependency conflicts, and finally, identity management misconfigurations. Each step, though seemingly small, demanded careful analysis and iterative refinement. The sheer volume and variety of errors encountered truly highlight the complex interplay of a static site generator, a headless CMS, and a global deployment platform. The eventual success in reaching the Netlify CMS login page is a hard-won victory, reflecting exceptional dedication to problem-solving.
 
 <!--EndFragment-->
+
+<script src="https://utteranc.es/client.js"
+        repo="SakuraArc/blog_comment"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>

@@ -125,6 +125,13 @@ banner:
     banner_title: 醉后不知天在水，<br>满船清梦压星河。
     banner_text: About me
 
+music_player:
+  enable: true # 启用播放器
+  url: /music/only-my-railgun.mp3 # 你的音乐文件路径
+  title: only my railgun
+  artist: fripSide
+  # cover: /img/railgun_cover.jpg # 可选：封面图路径
+
 # Sidebar settings | 侧栏
 sidebar:
   typed_text_prefix: I`m # 打字动画固定前缀
