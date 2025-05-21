@@ -28,10 +28,3 @@ This journey has been a masterclass in debugging, moving from filesystem and YAM
 
 <!--EndFragment-->
 
-<script src="https://utteranc.es/client.js"
-        repo="SakuraArc/blog_comment"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>

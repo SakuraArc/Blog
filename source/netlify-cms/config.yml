@@ -35,15 +35,7 @@ collections:
       - {label: "描述", name: "description", widget: "string", required: false}
       - {label: "标签", name: "tags", widget: "list", required: false} # 标签列表
       - {label: "分类", name: "categories", widget: "list", required: false} # 分类列表
-      - {label: "内容", name: "body", widget: "markdown", required: true，default:|
-          <script src="https://utteranc.es/client.js"
-                  repo="SakuraArc/blog_comment"
-                  issue-term="pathname"
-                  theme="github-light"
-                  crossorigin="anonymous"
-                  async>
-          </script>
-          } # 文章主要内容，使用 Markdown 编辑器
+      - {label: "内容", name: "body", widget: "markdown", required: true}
           
 skip_render:
   - 'cms/**'  # 这会告诉 Hexo 不要处理 'source/cms/' 目录下的内容，直接将其复制到 public 目录。
